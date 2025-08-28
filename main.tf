@@ -22,3 +22,7 @@ resource "azurerm_resource_group" "yogi" {
   name     = "yogi-rg"
   location = "West Europe"
 }
+resource "azurerm_resource_group" "modi" {
+  name     = "modi-rg"
+  location = "West Europe"
+}
